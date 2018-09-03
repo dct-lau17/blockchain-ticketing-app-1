@@ -1,10 +1,6 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/7300d25065b0d59b7a84/maintainability)](https://codeclimate.com/github/jeff1108/blockchain-ticketing-app/maintainability)
-
-[![Test Coverage](https://api.codeclimate.com/v1/badges/7300d25065b0d59b7a84/test_coverage)](https://codeclimate.com/github/jeff1108/blockchain-ticketing-app/test_coverage)
-
 ## Blockchain Ticketing APP (Front-end)
 
-This repository represents the Front-end element to our project, while the Sinatra/Ruby Back-end "blockchain" repository [can be found here](https://github.com/bilfar/blockchain-backend-ruby).
+This repository represents the Front-end element to our project, while the Sinatra/Ruby Back-end "blockchain" repository [can be found here](https://github.com/dct-lau17/blockchain-backend-ruby).
 
 A blockchain-based ticketing app that allows users to purchase concert tickets and stores the validated transactions on a blockchain network. Created as part of our final project for the Makers Academy bootcamp during August 2018.
 
@@ -49,12 +45,10 @@ I want a confirmation with my ticket number
 
 ## To run application
 
-clone this repo
-
 ```
 git clone https://github.com/jeff1108/blockchain-ticketing-app.git
 npm install  
-npm start - to run server  
+npm start
 ```
 
 ### To run cypress tests  
@@ -66,6 +60,16 @@ On a another terminal `npm run cypress:open`
 
 `npm test -- --coverage`
 
+### Screenshots
+#### User Details
+![User Details Screenshot](screenshots/user-details.png)
+
+#### Concert Listings
+![Event Listings Screenshot](screenshots/Listing.png)
+
+#### Confirmation
+![Confirmation screen](screenshots/confirmation.png)
+
 ## Learning Outcomes
 - As a team we got a good understanding on how blockchain works
 - We were introduced to the REACT framework
@@ -76,7 +80,6 @@ On a another terminal `npm run cypress:open`
 ## Future/Further Improvements
 - Payment page to allow users to pay for their tickets  
 - Currently the prices of tickets are hard coded as the third party API does not provide this information
-- The
 - Given more time we would like to refactor and improve our REACT code structure
 - Build a ticket validation system for the venues to verify the tickets  
 
